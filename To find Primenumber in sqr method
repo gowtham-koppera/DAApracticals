@@ -18,9 +18,9 @@ int main() {
     scanf("%d", &n);  // Fix: pass the address of n
     int ans = isprime(n);
     if (ans == 1)
-        printf("prime no");
+        printf("prime num");
     else
-        printf("not a prime no");  // Fix: added an else condition to handle non-prime case
+        printf("not a prime num");  // Fix: added an else condition to handle non-prime case
 
     return 0;
 }
